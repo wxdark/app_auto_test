@@ -1,0 +1,43 @@
+test_add_address:
+  test_add_address_001:
+    name: "李四"
+    phone: "18911234456"
+    address: "南山街道丽苑阁A座"
+    post_code: "075531"
+    toast: Null
+  test_add_address_002:
+    name: ""
+    phone: "18911234456"
+    address: "南山街道丽苑阁A座"
+    post_code: "075531"
+    toast: "收件人姓名"
+  test_add_address_003:
+    name: "李四"
+    phone: "189112344"
+    address: "南山街道丽苑阁A座"
+    post_code: "075531"
+    toast: "11位手机号"
+  test_add_address_004:
+    name: "李四"
+    phone: "18911234456"
+    address: ""
+    post_code: "075531"
+    toast: "请输入详细地址"
+  test_add_address_005:
+    name: "李四"
+    phone: "18911234456"
+    address: "南山"
+    post_code: "075531"
+    toast: "详细地址为5到60个字符"
+  test_add_address_006:
+    name: "李四"
+    phone: "18911234456"
+    address: "南山街道丽苑阁A座"
+    post_code: "075"
+    toast: "邮政编码错误"
+  test_add_address_007:
+    name: "王五"
+    phone: "18923235569"
+    address: "芙蓉阁 三单元"
+    post_code: ""
+    toast: Null

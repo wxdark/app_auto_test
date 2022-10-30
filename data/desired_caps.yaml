@@ -1,0 +1,19 @@
+# 需要连接的手机的平台
+platformName: Android
+# 需要连接的手机系统版本号
+platformVersion: '5.1'
+# 需要连接的手机设备号
+deviceName: 192.168.149.101:5555
+# 需要打开的包名
+appPackage: com.yunmall.lc
+# 需要打开的界面名
+appActivity: com.yunmall.ymctoc.ui.activity.MainActivity
+noReset: True
+# 获取toast
+automationName: Uiautomator2
+
+#chromedriverExecutable: D:\webdriver\chromedriver75.exe
+#goog:chromeOptions:
+#  w3c: false
+nativeWebScreenshot: true
+newCommandTimeout: 600

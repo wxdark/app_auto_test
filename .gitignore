@@ -1,0 +1,6 @@
+.idea
+.pytest_cache
+lib
+report
+__pycache__
+pyvenv.cfg
